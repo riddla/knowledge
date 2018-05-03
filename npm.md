@@ -2,7 +2,7 @@
 
 ## How to update a package and save it to package.json?
 
-```text
+```bash
 npm update material-ui --save
 ```
 
