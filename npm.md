@@ -2,9 +2,11 @@
 
 ## How to update a package and save it to package.json?
 
-`npm update material-ui --save`
+```text
+npm update material-ui --save
+```
 
-[https://docs.npmjs.com/cli/update](https://docs.npmjs.com/cli/update)
+{% embed data="{\"url\":\"https://docs.npmjs.com/cli/update\",\"type\":\"link\",\"title\":\"update \| npm Documentation\",\"description\":\"The place where all things npm are documented\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.npmjs.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
 
 
