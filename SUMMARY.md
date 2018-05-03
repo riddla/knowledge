@@ -1,5 +1,6 @@
 # Table of contents
 
-* [npm](README.md)
+* npm
 * Test
+* [npm](npm.md)
 
