@@ -1,5 +1,5 @@
 # Table of contents
 
-* npm
+* Knowledge
 * [npm](npm.md)
 
