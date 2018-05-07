@@ -2,4 +2,5 @@
 
 * Knowledge
 * [npm](npm.md)
+* [TypeScript](typescript.md)
 
