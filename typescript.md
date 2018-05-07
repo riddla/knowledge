@@ -3,13 +3,20 @@
 ## Import \(typed JSON files\)
 
 ```typescript
-declare module "*.json" {
-    const value: any;
-    export default value;
+declare module '*.json' {
+  const value: JSON;
+  export default value;
 }
+
+export type JSONObject = { [key: string]: JSON };
+export interface JSONArray extends Array<JSON> {}
+export type JSON = null | string | number | boolean | JSONArray | JSONObject;
 ```
 
-Source: [https://github.com/aurelia/cli/issues/493\#issuecomment-281916899](https://github.com/aurelia/cli/issues/493#issuecomment-281916899)
+Sources:
+
+* {% embed data="{\"url\":\"https://github.com/aurelia/cli/issues/493\#issuecomment-281916899\",\"type\":\"link\",\"title\":\"Typescript error \\"TS2307: Cannot find module \'../aurelia.json\'\\" within build tasks · Issue \#493 · aurelia/cli\",\"description\":\"I&\#39;m submitting a bug report \(i guess\)  Library Version: 1.0.8  Please tell us about your environment:   Operating System: Windows 10   Node Version: 6.9.4   NPM Version: 4.1.1   Browser: Not Br...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/2870365?s=400&v=4\",\"width\":420,\"height\":420,\"aspectRatio\":1}}" %}
+* [https://github.com/Microsoft/TypeScript/issues/15225\#issuecomment-294718709](https://github.com/Microsoft/TypeScript/issues/15225#issuecomment-294718709)
 
 ## Type object keys
 
