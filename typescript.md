@@ -4,7 +4,7 @@ description: How Do I ...
 
 # TypeScript
 
-## Import \(typed JSON files\)?
+## ... import \(typed JSON files\)?
 
 ```typescript
 declare module "*.json" {
