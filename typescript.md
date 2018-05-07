@@ -1,10 +1,6 @@
 # TypeScript
 
-## How Do I ...
-
-
-
-### ... import \(typed JSON files\)?
+## Import \(typed JSON files\)?
 
 ```typescript
 declare module "*.json" {
